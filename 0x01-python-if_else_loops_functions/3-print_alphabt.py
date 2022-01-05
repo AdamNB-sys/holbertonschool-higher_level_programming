@@ -4,4 +4,3 @@ for x in range(ord('a'), ord('z') + 1):
         continue
     else:
         print("{:c}".format(x), end="")
-\n

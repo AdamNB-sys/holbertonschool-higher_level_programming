@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 import random
 number = random.randint(-10000, 10000)
 last = abs(number) % 10
@@ -14,4 +12,3 @@ elif last == 0:
     print("{} {} is {} and is 0".format(string, number, last))
 elif last < 6 and last != 0:
     print("{} {} is {} and {}".format(string, number, last, less))
-\n
