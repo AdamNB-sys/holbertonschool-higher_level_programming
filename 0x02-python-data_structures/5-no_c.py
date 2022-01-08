@@ -2,5 +2,5 @@
 
 
 def no_c(my_string):
-    newstring = my_string.translate({ord(x): None for x in "Cc"})
-    return newstring
+    new_string = my_string.translate({ord(x): None for x in "Cc"})
+    return new_string
