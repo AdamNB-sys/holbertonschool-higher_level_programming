@@ -5,6 +5,6 @@ def search_replace(my_list, search, replace):
     newbie = []
     for i in my_list:
         if i == search:
-            i = newbie
+            i = replace
         newbie.append(i)
     return newbie
