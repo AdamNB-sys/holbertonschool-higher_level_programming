@@ -1,1 +1,3 @@
-0x03-python-more_data_structures/__pycache__/*.pyc
+*.pyc
+*-main.*
+*.swp
