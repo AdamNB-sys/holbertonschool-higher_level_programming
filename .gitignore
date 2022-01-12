@@ -1,3 +1,4 @@
 *.pyc
 *-main.*
 *.swp
+/python_testDir
