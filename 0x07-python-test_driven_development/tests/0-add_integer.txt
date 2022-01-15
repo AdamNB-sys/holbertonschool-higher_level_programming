@@ -1,0 +1,30 @@
+The ``0-add_integer`` module
+======================
+
+Using ``add_integer``
+-------------------
+
+``add_integer`` from the ``0-add_integer`` module:
+
+    >>> add_integer = __import__('0-add_integer').add_integer
+
+Now use it:
+
+    >>> add_integer(10)
+    108
+    >>> add_integer(-5)
+    93
+    >>> add_integer(10, -5)
+    5
+    >>> add_integer(-2, -7)
+    -9
+    >>> add_integer(17, .99999999999999999) 
+    18
+    >>> add_integer(17, .9999999999999999) # technically this float is cast to 0
+    17
+    >>> add_integer(.99999999999999999, .99999999999999999) # and these are cast to 1
+    2
+    >>> add_integer(310.601, 200.001)
+    510
+    >>> add_integer(140.40, -200)
+    -60
