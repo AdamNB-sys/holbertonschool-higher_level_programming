@@ -8,5 +8,16 @@ def text_indentation(text):
         raise TypeError('text must be a string')
     
     newliners = ['.', '?', ':']
+    marker = False
+
     for c in text:
-        
+        if marker:
+            if c == ' ':
+                continue
+            marker = False
+        if c in newliners:
+            print(c)
+            print()
+            marker = True
+        else:
+            print(c, end='')
