@@ -1,0 +1,9 @@
+The ``7-base_geometry`` module
+======================
+
+Using ``base_geometry``
+-------------------
+
+``base_geometry`` from the ``7-base_geometry`` module:
+
+    >>> base_geometry = __import__('7-base_geometry').base_geometry
