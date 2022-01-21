@@ -1,7 +1,7 @@
 The ``7-base_geometry`` module
 ======================
 
-Using ``base_geometry``
+Using ``base_geometry``     ## these methods must be changed
 -------------------
 
 ``base_geometry`` from the ``7-base_geometry`` module:
