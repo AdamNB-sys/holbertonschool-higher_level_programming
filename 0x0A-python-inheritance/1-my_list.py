@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """class with inheritance from list"""
 
+
 class MyList(list):
     """prints a sorted list"""
 
