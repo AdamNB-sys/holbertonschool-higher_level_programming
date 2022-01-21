@@ -1,9 +1,9 @@
 The ``7-base_geometry`` module
 ======================
 
-Using ``base_geometry``     ## these methods must be changed
+Using ``BaseGeometry``
 -------------------
 
-``base_geometry`` from the ``7-base_geometry`` module:
+``BaseGeometry`` from the ``7-base_geometry`` module:
 
-    >>> base_geometry = __import__('7-base_geometry').base_geometry
+    >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
