@@ -22,5 +22,5 @@ class Student:
         return copy
 
     def reload_from_json(self, json):
-        """replaces all instances of the Student instance"""
+        """replaces all attributes of the Student instance"""
         self.__dict__.update(json)
