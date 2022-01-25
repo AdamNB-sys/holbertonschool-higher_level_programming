@@ -19,4 +19,4 @@ class Student:
         for key, value in current.items():
             if key in attrs:
                 copy[key] = value
-            return copy
+        return copy
