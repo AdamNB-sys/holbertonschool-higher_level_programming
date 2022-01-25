@@ -3,5 +3,5 @@
 
 
 def class_to_json(obj):
-    """returns the objects writable attributes"""
+    """return dict representation"""
     return obj.__dict__
