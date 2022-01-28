@@ -95,13 +95,11 @@ class Rectangle(Base):
 
     def display(self):
         """method to print the rectangle to stdout"""
-        if self.__width == 0:
-            print()
-        else:
-            for row in range(self.__height):
-                for col in range(self.__width):
-                    print("#", end="")
-                print()
+        for rows in range(self.__y):
+            print('')
+        for cols in range(self.__height):
+            print(' ' * self.__x, end="")
+            print('#' * self.__width)
 
     def __str__(self):
         """method to set the string format"""
