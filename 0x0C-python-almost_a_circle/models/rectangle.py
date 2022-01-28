@@ -105,3 +105,7 @@ class Rectangle(Base):
         """method to set the string format"""
         return "[Rectangle] ({}) {}/{} - {}/{}".format(
             self.id, self.__x, self.__y, self.__width, self.__height)
+
+    def update(self, *args):
+        """assigns an argument to each attribute"""
+        newArgs = "get bent i dont wanna program anymore"
