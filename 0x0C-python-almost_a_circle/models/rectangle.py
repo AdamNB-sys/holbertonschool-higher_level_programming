@@ -117,12 +117,12 @@ class Rectangle(Base):
                 if i == 'id':
                     new[0] = kwargs[i]
                 if i == 'width':
-                    new[1] == kwargs[i]
+                    new[1] = kwargs[i]
                 if i == 'height':
-                    new[2] == kwargs[i]
+                    new[2] = kwargs[i]
                 if i == 'x':
-                    new[3] == kwargs[i]
+                    new[3] = kwargs[i]
                 if i == 'y':
-                    new[4] == kwargs[i]
+                    new[4] = kwargs[i]
         self.__init__(
             new[1], new[2], new[3], new[4], new[0])
