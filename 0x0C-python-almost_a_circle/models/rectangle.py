@@ -109,7 +109,7 @@ class Rectangle(Base):
     def update(self, *args, **kwargs):
         """assigns an argument to each attribute"""
         attnum = 0
-        att = [self.id, self.__width, self.__height, self.__x, self.__y]
+        att = ['id', 'width', 'height', 'x', 'y']
         if args:
             for arg in args:
                 setattr(self, att[attnum], arg)

@@ -23,8 +23,13 @@ class Square(Rectangle):
 
     @size.setter
     def size(self, value):
-        """sets width and validates usage"""
-        super().__init__(value, value)
+        """sets size and validates usage"""
+        if type(value) is not int:
+            raise TypeError('width must be an integer')
+        if value <= 0:
+            raise ValueError('width must be > 0')
+        self.width = value
+        self.height = value
 
     def update(self, *args, **kwargs):
         """assigns an argument to each attribute"""
