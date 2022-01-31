@@ -3,7 +3,7 @@
 Tests are done for each method of the class"""
 
 
- import pep8
+import pep8
 import unittest
 from models.base import Base
 from models.rectangle import Rectangle
@@ -18,7 +18,7 @@ class TestClassRectangle(unittest.TestCase):
         """
         pep8style = pep8.StyleGuide(quiet=True)
         result = pep8style.check_files(['models/rectangle.py'])
-        self.assertEqual(result.total_errors, 0,
+        self.assertEqual(result.total_errors, 0, 
                          "Found code style errors (and warnings).")
 
     def test_module_docstring(self):

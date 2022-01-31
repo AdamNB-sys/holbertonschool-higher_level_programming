@@ -19,4 +19,4 @@ class TestClassRectangle(unittest.TestCase):
         pep8style = pep8.StyleGuide(quiet=True)
         result = pep8style.check_files(['models/rectangle.py'])
         self.assertEqual(result.total_errors, 0,
-                        "Found code style errors (and warnings).")
+                         "Found code style errors (and warnings).")
