@@ -29,10 +29,10 @@ class Base:
     @classmethod
     def save_to_file(cls, list_objs):
         """saves JSON representaion of dictionary to a file"""
-        if len(list_objs) < 1 or list_objs is None:
-            return []
-        filename = cls.__name__ + '.json'
         copy = []
+        if len(list_objs) == 0 or list_objs is None:
+            copy = []
+        filename = cls.__name__ + '.json'
         for i in list_objs:
             copy.append(i.to_dictionary())
         with open(filename, 'w') as f:
@@ -41,7 +41,7 @@ class Base:
     @staticmethod
     def from_json_string(json_string):
         """returns list of JSON string representation"""
-        if len(json_string) < 1 or json_string is None:
+        if len(json_string) == 0 or json_string is None:
             return []
         return json.loads(json_string)
 
