@@ -3,7 +3,6 @@
 Tests are done for each method of the class"""
 
 
-import pep8
 import unittest
 from models.base import Base
 from models.rectangle import Rectangle
@@ -18,7 +17,7 @@ class TestClassSquare(unittest.TestCase):
         Test that the id of the square is correct
         """
         s1 = Square(10)
-        self.assertEqual(s1.id, 1)
+        self.assertEqual(s1.id, 2)
         s2 = Square(10, 0, 0, 12)
         self.assertEqual(s2.id, 12)
 

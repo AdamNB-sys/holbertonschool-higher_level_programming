@@ -8,7 +8,6 @@ from models.base import Base
 from models.rectangle import Rectangle
 from models.square import Square
 import unittest
-import pep8
 import json
 import os
 
