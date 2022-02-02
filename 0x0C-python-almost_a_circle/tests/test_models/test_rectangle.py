@@ -7,8 +7,8 @@ import unittest
 from models.base import Base
 from models.rectangle import Rectangle
 from models import rectangle
-# import inspect
-# import pep8
+import inspect
+import pep8
 
 
 class TestRectangleDocs(unittest.TestCase):
