@@ -1,0 +1,3 @@
+-- Lists all cities contained in the database hbtn_0d_usa
+-- Record display: cities.id - cities.name - states.name
+-- Sorted in ascending order by cities.id

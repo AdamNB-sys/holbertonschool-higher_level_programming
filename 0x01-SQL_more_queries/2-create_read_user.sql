@@ -1,0 +1,1 @@
+-- Creates the hbtn_0d_2 database and new user user_0d_2

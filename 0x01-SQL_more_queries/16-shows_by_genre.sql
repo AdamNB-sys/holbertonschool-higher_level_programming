@@ -1,0 +1,2 @@
+-- Lists all shows and associated genres from the hbtn_0d_tvshows database
+-- Record display: tv_shows.title - tv_genres.name

@@ -1,0 +1,1 @@
+-- Lists all privileges of users _od_1 and _0d_2

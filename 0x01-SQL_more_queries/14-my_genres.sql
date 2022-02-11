@@ -1,0 +1,1 @@
+-- Lists all genres associated with the show Dexter in the hbtn_0d_tvshows database

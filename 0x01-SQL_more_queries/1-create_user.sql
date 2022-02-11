@@ -1,0 +1,1 @@
+-- Creates user "user_od_1" for MySQL server
