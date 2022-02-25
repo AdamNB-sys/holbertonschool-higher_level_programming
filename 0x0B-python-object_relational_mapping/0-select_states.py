@@ -11,7 +11,8 @@ def main():
 
     cur = db.cursor()
     cur.execute("SELECT id, name FROM states ORDER BY id ASC")
-    for row in cur.fetchall():
+    states = cur.fetchall()
+    for row in states():
         print(row)
 
     cur.close()
