@@ -11,7 +11,7 @@ def print_state():
         passwd=argv[2], db=argv[3], port=3306)
 
     cur = db.cursor()
-    cur.execute("SELECT id, name FROM states ORDER BY id ASC")
+    cur.execute("SELECT * FROM states")
     for rows in cur.fetchall():
         print(rows)
 
