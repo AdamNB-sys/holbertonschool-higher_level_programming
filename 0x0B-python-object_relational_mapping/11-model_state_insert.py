@@ -2,9 +2,6 @@
 """adds a state object to the hbtn_0e_6_usa database"""
 
 
-from unicodedata import name
-
-
 if __name__ == "__main__":
     from sys import argv
     from model_state import Base, State
