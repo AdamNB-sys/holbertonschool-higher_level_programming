@@ -2,11 +2,10 @@
 """Fetches a url using urllib"""
 
 
-import urllib.request
-
-
 if __name__ == "__main__":
     """method to fetch url and print status"""
+    import urllib.request
+
     with urllib.request.urlopen('https://intranet.hbtn.io/status') as response:
         html = response.read()
         print('Body response:')
