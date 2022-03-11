@@ -29,6 +29,6 @@ if __name__ == "__main__":
             response = request.json()
             id = response.get('id')
             name = response.get('name')
-            print(f'[{id}] {name}')
+            print('[{}] {}'.format(id, name))
         except Exception:
             print('Not valid JSON')
