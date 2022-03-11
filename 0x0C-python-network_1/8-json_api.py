@@ -25,11 +25,11 @@ if __name__ == "__main__":
 
     try:
         response = request.json()
+        id = response.get('id')
+        name = response.get('name')
         if len(response) == 0:
             print('No result')
         else:
-            id = response.get('id')
-            name = response.get('name')
             print(f'[{id}] {name}')
     except Exception:
         print('Not valid JSON')
