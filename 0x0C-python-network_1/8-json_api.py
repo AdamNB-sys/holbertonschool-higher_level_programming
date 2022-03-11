@@ -15,10 +15,9 @@ if __name__ == "__main__":
     from requests import post, get
     import sys
 
-    if len(sys.argv) <= 1:
+    q = sys.argv[1]
+    if not q or len(q) == 0:
         q = ""
-    else:
-        q = sys.argv[1]
 
     url = 'http://0.0.0.0:5000/search_user'
     request = post(url, data={'q': q})
