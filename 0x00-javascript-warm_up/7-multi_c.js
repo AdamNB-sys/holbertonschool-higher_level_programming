@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const x = process.argv
+const x = process.argv;
 
 if (Number(x[2])) {
   for (let i = 0; i < x[2]; i++) {
