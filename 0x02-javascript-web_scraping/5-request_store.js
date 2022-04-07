@@ -7,7 +7,7 @@ request(process.argv[2], { json: true }, (err, res, body) => {
   if (err) { return console.log(err); }
   // console.log(body);
   // fileWriter.write(body, 'utf-8');
-  fs.writeFile(process.argv[3], body, err => {
+  fs.writeFile(process.argv[3], body, 'utf-8', err => {
     if (err) { return console.log(err); }
   });
 });
